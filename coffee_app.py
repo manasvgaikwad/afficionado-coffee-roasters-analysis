@@ -32,7 +32,7 @@ def time_bucket(hour):
 
 @st.cache_data
 def load_data():
-    data = pd.read_excel("Afficionado_Coffee_Roasters.xlsx", sheet_name="Transactions")
+    data = pd.read_excel("Afficionado Coffee Roasters.xlsx", sheet_name="Transactions")
 
     # Feature Engineering (Temporal)
 
